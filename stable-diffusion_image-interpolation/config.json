@@ -1,0 +1,14 @@
+{
+  "model_id": "Jiali/stable-diffusion-1.5",
+  "image_paths": [
+    "../data/results/ma-boston_200250_fake_B.png",
+    "../data/results/nc-charlotte_200250_fake_B.png",
+    "../data/results/ny-manhattan_200250_fake_B.png",
+    "../data/results/pa-pittsburgh_200250_fake_B.png"
+  ],
+  "num_steps": 50,
+  "inference_steps": 15000,
+  "output_dir": "diffusion-output/stable-diffusion-1-5_4-images_50-steps_15000-inference",
+  "output_image_size": [512, 512],
+  "max_image_dimension": 1024
+}
