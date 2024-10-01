@@ -1,0 +1,22 @@
+{
+  "total_samples": 10000,
+  "batch_size": 32,
+  "num_epochs": 5,
+  "learning_rate": 1e-3,
+  "commitment_cost": 0.25,
+  "hidden_channels": 128,
+  "embedding_dim": 64,
+  "num_embeddings": 512,
+  "checkpoint_interval": 2,
+  "image_size": [128, 128],
+  "normalize_mean": [0.5],
+  "normalize_std": [0.5],
+  "identifier": "vq-vae_32-batch_10000-samples_5-epochs",
+  "output_base_dir": "vae-output",
+  "dataset_dirs": [
+    "../data/ma-boston/parcels",
+    "../data/nc-charlotte/parcels",
+    "../data/ny-manhattan/parcels",
+    "../data/pa-pittsburgh/parcels"
+  ]
+}
